@@ -31,13 +31,13 @@
     right: 0;
     max-height: 200px;
     margin-top: 4px;
-    padding: 8px 0;
+    padding: 0;
     border: 1px solid var(--border-color);
-    border-radius: 4px;
-    background-color: var(--bg-color);
+    border-radius: 6px;
+    background-color: #fff;
     overflow-y: auto;
     z-index: 10;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     animation: dropdownFade 0.2s ease
 }
 
@@ -47,6 +47,12 @@
     transition: all 0.2s ease;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #eaecef;
+    font-size: 14px;
+
+    &:last-child {
+        border-bottom: none;
+    }
 
     &:hover {
         background-color: var(--hover-color);

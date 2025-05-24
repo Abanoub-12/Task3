@@ -1,3 +1,17 @@
+export declare const emptyState: string
+export declare const errorState: string
+export declare const filterContainer: string
+export declare const forks: string
+export declare const formLabel: string
+export declare const language: string
+export declare const loadingState: string
 export declare const mainRoot: string
 export declare const repositoriesList: string
 export declare const repositoryItem: string
+export declare const repositoryMeta: string
+export declare const searchButton: string
+export declare const searchForm: string
+export declare const searchInput: string
+export declare const spin: string
+export declare const spinner: string
+export declare const stars: string
